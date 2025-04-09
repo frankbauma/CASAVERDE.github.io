@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Catálogo de Productos</title>
+<link rel="icon" href="imagen/LOGO.jpg">
+
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/LOGO.jpg"></a>
+        <h1>CASAVERDE</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">INICIO</a></li>
+                                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>Catálogo de Productos</h1>
+        <div class="catalogo">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="imagen/p1.jpg" alt="PLANTA NATURAL MONEDERO 25 X 22 CM CON MACETA DE PLÁSTICO.">
+                <div class="producto-info">
+                    <h2>PLANTA NATURAL MONEDERO 25 X 22 CM CON MACETA DE PLÁSTICO.</h2>
+                                        <p class="precio">$20.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="imagen/p2.jpg" alt="Producto 2">
+                <div class="producto-info">
+                    <h2>PLANTA MONALISA 6 PG MORADA FLORAMUNDO</h2>
+                    <p class="precio">$25.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="imagen/p3.jpg" alt="Producto 3">
+                <div class="producto-info">
+                    <h2>FLORAMUNDOCRISANTEMO NATURAL VERDE 5 PULGADAS</h2>
+                                        <p class="precio">$30.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 4 -->
+            <div class="producto">
+                <img src="imagen/p4.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>PLANTA NATURAL CUNA DE MOISÉS 72 X 57 CM CON MACETA DE PLÁSTICO</h2>
+                                        <p class="precio">$15.00</p>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="producto">
+                <img src="imagen/p5.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>GARDENIA NATURAL DE 60 CM</h2>
+       
+                    <p class="precio">$15.00</p>
+                </div>
+            </div>
+            <!-- Producto 6 -->
+            <div class="producto">
+                <img src="imagen/p6.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>PLANTA NATURAL ROSA LAUREL 88 X 43 CM</h2>
+                    
+                    <p class="precio">$15.00</p>
+                </div>
+            </div>
+            <!-- Producto 7 -->
+            <div class="producto">
+                <img src="imagen/p7.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>FLORAMUNDOPLANTA NATURAL BELÉN NUEVA GUINEA 32 X 12.6 CM CON MACETA DE PLÁSTICO</h2>
+                                       <p class="precio">$15.00</p>
+                </div>
+            </div>
+            <!-- Producto 8 -->
+            <div class="producto">
+                <img src="imagen/p8.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>TULIPÁN HOLANDÉS 6"</h2>
+                                       <p class="precio">$15.00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2024 CASAVERDE. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: casaverde10@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>
