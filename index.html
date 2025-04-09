@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>casaverde</title>
+    <link rel="icon" href="imagen/LOGO.jpg">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/LOGO.jpg"></a>
+        <h1>CASAVERDE</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">INICIO</a></li>
+                                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="imagen/LOGO.jpg" alt="quienes_somos">
+            </div>
+            <div class="derecha">
+                <h2>casa verde</h2>
+                <p>Llevar naturaleza y bienestar a cada hogar mediante la venta y entrega de plantas a domicilio, fomentando espacios verdes y saludables con atención personalizada.</p>    
+            </div>
+        </section>
+
+        <!-- Sección de Promociones -->
+        <section id="promocion">
+            <h2>PROOMCIONES</h2>
+            <div class="catalogo">
+                <!-- promocion 1 -->
+                <div class="producto">
+                    <img src="imagen/promocion%202.jpg" alt="Producto 1">
+                    <div class="producto-info">
+                        <h2>45$</h2>
+                        <p>PLANTA AMOR DE UN RATO 6.</p>
+                    </div>
+                </div>
+                <!-- promocion 2 -->
+                <div class="producto">
+                    <img src="imagen/promocion.jpg" alt="Producto 2">
+                    <div class="producto-info">
+                        <h2>48$</h2>
+                        <p>PLANTA NATURAL ANTHURIUM CON MACETA DE PLÁSTICO.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección de Servicios y Precios -->
+        <section id="servicios" class="columnas">
+            <div class="izquierda">
+                <h2>Servicios y Precios</h2>
+                <ul>
+                    <li>entrega a domicilio: $25</li>
+                    <li>entrega a domicilio en fuera del municipio: $35</li>
+                 
+                    <!-- Agregar más servicios según sea necesario -->
+                </ul>
+            </div>
+            <div class="derecha">
+                <img src="imagen/servicio.jpg" alt="Servicio">
+            </div>
+        </section>
+
+        <!-- Sección de Marcas -->
+        <section id="marcas">
+            <h2>Nuestras Marcas</h2>
+            <div class="brands">
+                <img src="imagen/marca1.png" alt="Alis Arte Diseño">
+                <img src="imagen/marca%203.webp" alt=" Amor Vegetal">
+                <img src="imagen/marca%202.webp" alt="Jardín Chiquito">
+                          </div>
+        </section>
+    </main>
+<video width="1400" height="640" controls>
+  <source src="imagen/video.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de videos.
+</video>
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2024 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: info@tuempresa.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>
